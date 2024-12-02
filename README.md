@@ -1,11 +1,5 @@
-# Use a lambda to send notifications to an SNS topic
+# Cross-account SNS Notifications
 
-## Deployment
+Use a lambda to send notifications to an SNS topic in another account.
 
-```
-export AWS_REGION='eu-central-1'
-cdk bootstrap
-npm install
-npm run build
-cdk deploy
-```
+See the README files in the subfolders for deployment and testing.
